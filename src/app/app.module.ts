@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestComponent } from './component/test/test.component';
+import { HiTestComponent } from './component/hi-test/hi-test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent
+    TestComponent,
+    HiTestComponent
   ],
   imports: [
     BrowserModule,
